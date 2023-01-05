@@ -1,0 +1,13 @@
+read two integers from user/keyboard 
+Do all arthmetic opertions  + , - , * , / , % , // , **
+
+inp: 
+10
+20 
+
+op:
+30
+-10
+200
+0
+10

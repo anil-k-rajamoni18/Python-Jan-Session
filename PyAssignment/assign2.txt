@@ -1,0 +1,2 @@
+read a your name from input/keyword 
+print greetings with your name as output

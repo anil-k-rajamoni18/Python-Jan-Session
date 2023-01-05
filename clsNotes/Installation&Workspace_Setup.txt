@@ -82,7 +82,7 @@ TOOLS
 	jupyter notebook
 	navigator
 	
-	==> Installation JupyterNoteBook 
+###########Installation JupyterNoteBook ###########
 	1. open Terminal 
 		pip install jupyter notebook
 		pip3 install jupyter notebook
