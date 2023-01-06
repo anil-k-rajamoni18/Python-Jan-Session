@@ -44,7 +44,26 @@ PRE-REQ
 	=> run the python code
 		python fileName.py
 		python3 fileName.py (Mac-OS)
-		  
+		
+		
+### MAC COMMANDS ####
+
+ pwd 			-> present working directory 
+ ls -l      	--> list the content inside current path
+ cd         	---> changing the path 
+ touch fileName --> file creation
+ mkdir          ---> dir/folder creation
+ rmdir          ---> dir/folder delete
+ 
+ cat fileName   ---> show content of the FileName.
+ 
+ nano fileName ----> edit any file content
+ 
+ cd ..         -----> change path to one level up or backward
+ 
+ cd ~          -----> change path to home directory 
+ 
+ python3       ------> python command for MAC-OS
 ### SHORTCUTS 
 ==========================
 	WINDOW KEY + < or >   : split screen

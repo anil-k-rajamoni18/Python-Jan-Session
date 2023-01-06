@@ -117,20 +117,53 @@ CLONING Repo
 
 3. GETTING NEW CHANGES from next time.
 	
-	a. open Terminal and change path to orgPython
+	a. open Terminal/Gitbash and change path to orgPython/PythonSessionJan
 	b. Do following commands 
 		git status --> nothing to commit 
 		
-		git pull 
+		git pull
+	c. copy and paste 'PythonSessionJan' the cloned floder from orgPython -->myPython 
 		
 note: 
 ===============
 - Both Directories have same PythonJanSession (will have same content)
-- in myPython you can change the content and update (whatever you like to pracrise
+- in myPython you can change the content and update (whatever you like to practise)
 - orgPython for getting new changes.(DONT OPEN jupyter notebook)here
 
-- ALways jupyter inside myPython floder.
+- ALways jupyter notebook inside myPython floder.
+	1.Open terminal/Anaconda prompt
+	2. cd for changing the path
+	3. jupyter notebook (to launch).
 
 - YOU CAN CREATE YOUR NOTEBOOK FILES inside  myJupyterFiles
 	- name notebooks filename according to conceptName/Date.
 - Jupyter files will have extension .ipynb(interative python notebook)
+
+############ JUPYTER NOTEBOOK ################
+
+- It works as a client-server arch
+- server: jupyter notebook , it will start the jupyter server
+- client : browser UI 
+- All jupyter files will have .ipynb(interative pythonNotebook) extension
+- by default it will open in 8888 port(localhost).
+- Mainly we jupyter notebook 
+	- DS 
+	- ML 
+	- interative notebooks.
+	
+==> MODES 
+	- command mode - blue 
+		esc : to switc 
+		a - insertion above
+		b - insertion below 
+		x - delete
+		z - undo 
+		c - copy 
+		p - paste
+		
+	- edit mode  - green 
+	- markdown mode  - no cell numbering
+		esc : m 
+		
+	
+	

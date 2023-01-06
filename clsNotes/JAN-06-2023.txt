@@ -1,0 +1,55 @@
+
+############ JUPYTER NOTEBOOK ################
+
+- It works as a client-server arch
+- server: jupyter notebook , it will start the jupyter server
+- client : browser UI 
+- All jupyter files will have .ipynb(interative pythonNotebook) extension
+- by default it will open in 8888 port(localhost).
+- Mainly we jupyter notebook 
+	- DS 
+	- ML 
+	- interative notebooks.
+	
+==> MODES 
+	- command mode - blue 
+		esc : to switch
+		a - insertion cell above
+		b - insertion cell below 
+		x - deletion
+		z - undo 
+		c - copy 
+		p - paste
+		
+	- edit mode  - green (just place the cursor)
+	- markdown mode  - no cell numbering
+		writing the notes
+		esc : m 
+		
+		
+################# WAYS TO EXECUTE PYTHON CODE ##############
+	- command prompt/ using Terminal (create a .py)
+			python fileName.py
+			python3 fileName.py
+			
+	- Interative PythonShell (IDLE)
+			open Terminal/cmd
+			just type python/python3 and enter
+			here we can execute one line statements
+			
+	- VSCODE 
+		projects 
+	
+	- JUPYTER NOTEBOOK
+		- interactive nb's
+	
+	- Online Interpreters
+	
+	ex: read two numbers(integers) from keyword 
+		hint : int(input())
+		
+		Do all + - * / // ** operations on two numbers.
+		
+		
+		
+	
