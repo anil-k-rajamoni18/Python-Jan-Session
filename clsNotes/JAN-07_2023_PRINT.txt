@@ -1,0 +1,41 @@
+###PRINT###
+
+- ord(character) --> display the ascii/unicode decimal mapping number 
+  chr(number)  ---> displays character
+  
+- printing data to the console/screen/file by default 
+	syntax:
+	-----------------
+-  print(value,sep=' ',end='\n',file=sys.stdout,flush=Flush)
+
+	attributes/args
+		value
+		sep
+		end
+		file
+		flush
+- we can use print method on any data type (int,float,str,list,tuple,set,dict) etc
+- Default values
+		sep = ' '
+		end = '\n'
+		file = sys.stdout --> screen/console.
+    we can override these values. 
+
+OBSERVATION:
+=====================		
+- print() will act has newline(because end='\n')
+- IN Python Everyone Functions returns something has a result (they will have return keyword)
+		if function is not returning anything interperter will return the None value.
+		1.when we are storing function calling in another variable
+		2. when we are calling the fun from another fun
+		
+- a = print("Hello")
+  print(print("hello"))
+   
+   Hello
+	None 
+	
+	
+	
+
+

@@ -139,31 +139,7 @@ note:
 	- name notebooks filename according to conceptName/Date.
 - Jupyter files will have extension .ipynb(interative python notebook)
 
-############ JUPYTER NOTEBOOK ################
 
-- It works as a client-server arch
-- server: jupyter notebook , it will start the jupyter server
-- client : browser UI 
-- All jupyter files will have .ipynb(interative pythonNotebook) extension
-- by default it will open in 8888 port(localhost).
-- Mainly we jupyter notebook 
-	- DS 
-	- ML 
-	- interative notebooks.
-	
-==> MODES 
-	- command mode - blue 
-		esc : to switc 
-		a - insertion above
-		b - insertion below 
-		x - delete
-		z - undo 
-		c - copy 
-		p - paste
-		
-	- edit mode  - green 
-	- markdown mode  - no cell numbering
-		esc : m 
 		
 	
 	

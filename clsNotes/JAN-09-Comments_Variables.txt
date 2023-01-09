@@ -1,0 +1,67 @@
+##TODAY ###
+
+PREBUILD METHODS 
+====================
+print() -- displaying the output on screen/console.
+ord() chr() --> for ascii values/symobol
+type() -- displays the datatype of a variable/value
+id() --> displays a memory address.
+
+
+int() float() complex() str() bool() 
+list() set() tuple() dict()
+
+COMMENTS 
+=================
+- piece of text explains code
+- makes code more  reable
+- In Python we have two types of comments 
+		#  --> single line comment
+		'''  '''
+		"""   """  --> multi line comment
+		
+VARIABLES
+====================
+	=> A Name assigned to memory locations/address. 
+	=> It posses Variability property which changes it's value during phase of execution.
+	==> In Python it's not need to declare datatype at the time of declaration.
+	=> Datatype for a variable is decided at runtime by INTERPRETER based on value it's stored/assigned.
+	
+	syntax:
+		variableName = value 
+		
+	=> While declaring we need to follow rules.
+			- A variable name must start with a letter or the underscore character
+			- A variable name cannot start with a number
+			- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+			- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
+			- A variable cannot have same name as Reserved word or KEYWORD.
+	
+#######################################
+			INPUT
+#######################################
+	- In Python we have input() method for reading inp/data from user/keyboard.
+	- syntax:
+		variable_name = input("prompt")
+		
+		prompt : is optional , should be in string format 
+		
+	- BY DEFAULT input() read all types of data in STRING format as input.
+	
+	- If we want a specific type of data from user/keyboard, we have to use TYPE CASTING
+	
+	## TYPE CASTING
+		- convertion of one datatype to another datatype.
+		- using prebuild datatype methods int() float() complex() str() bool() 
+		ex:
+			str - int
+				int(input())
+			
+			str - float
+				float(input())
+				
+			str - bool
+				bool(input())
+				
+			note: input() --> is str type 
+			
