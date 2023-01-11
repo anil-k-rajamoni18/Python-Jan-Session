@@ -1,0 +1,56 @@
+##DATA TYPES###
+================
+
+prebuild
+====================
+dir() --> it will display all attributes and methods of an object/variable/value
+len() --> number of elements , we can apply on list,tuple.str,set,dictionary
+
+
+ Primitive DataTypes.
+ ====================
+	- Integers - int  - int()
+		ex: 0-9 without any prefix
+	- Floating - float  - float()
+		ex: any decimal or floating 
+			ex: 2.32 
+	- textual - strings(str) - str()
+			ex: anything inside quotes
+				'a' 
+				"Kumar"
+				"27878#whs"
+				"10"
+				"10.2"
+				
+	- boolean - bool - bool()
+			ex: True(1) or False(0)
+			
+	- complex: x+yj
+			ex: 10+2j
+			
+			
+	##INTEGER 
+		- doesn't any length
+		- number system
+				-  Binary 
+					--> 0 1 range 
+					prefix: 0b or 0B
+				- Octal
+					-->0-7 range
+					prefix: 0o or 0O
+				- Decimal
+					-->0-9 range
+					0 1 2 3
+				- HexaDecimal
+					->0-15 range
+					-> prefix: 0x or 0X
+					-> 0-9 10-15(A,B,...F)
+			
+ SEQUENTIAL DATATYPES
+ ============================
+	LIST
+	TUPLE
+	SET
+	DICTIONARY
+	
+	

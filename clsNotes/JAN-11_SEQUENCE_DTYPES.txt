@@ -1,0 +1,60 @@
+##TODAY CLASS##
+=====================
+			
+ SEQUENTIAL DATATYPES
+ ============================
+	LIST
+	==================
+		- Collectional & ordered and Indexed Data type.
+		- Mutable (changes are allowed)
+		- supports indexing 
+			+ve : 0 --> N-1
+			-ve : -1 --> -N
+		- supports silicing
+		- accessing:
+			lstvar_name[index] 
+			note: index should be valid , otherwise raise IndexOutOfBoundException.
+		- supports both hemo & hetro types.	
+		- syntax:
+			varName = [data1,data2,.....datan ]
+			
+	TUPLE
+	=============================
+		- Collectional & ordered and Indexed Data type.
+		- Immutable(changes are not allowed)
+		- syntax:
+			varName = (data1,data2 ,...datan)
+	
+		- supports indexing 
+			+ve : 0 --> N-1
+			-ve : -1 --> -N
+		- supports silicing
+		- accessing:
+			tuple_varname[index] 
+			note: index should be valid , otherwise raise IndexOutOfBoundException.
+		
+		- supports both hemo & hetro types.	
+	
+	SET
+	========================================
+	- Collectional and unordered & unindexed.
+	- Doesn't support indexing
+	- It's mutable 
+	- supports both homo & hetro datatypes
+	syntax:
+		set_varname = {data,data2,....datan}
+		
+	
+	DICTIONARY
+	===========================================
+	- Collectional and unindexed 
+	- It's stores data in the form of key:value
+	- supports indexing based on key names
+	- syntax:
+		dname = {key1:value1,
+				 key2:value2,
+					..
+					...
+					
+				 keyn : valuen}
+	- keys should be unqiue and immutable datatype(str,tuple,int,float,complex,bool)
