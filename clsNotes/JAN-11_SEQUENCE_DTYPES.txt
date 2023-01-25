@@ -58,3 +58,6 @@
 					
 				 keyn : valuen}
 	- keys should be unqiue and immutable datatype(str,tuple,int,float,complex,bool)
+	
+	
+	

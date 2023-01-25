@@ -1,0 +1,47 @@
+TYPES OF STATEMENTS 
+=======================
+	1. SEQUENTIAL - linear 
+	2. CONTROL - control exp
+	3. LOOPING - iterations count
+	
+Ways to develop a Program
+==========================
+	1. Algorithm
+	2. Flowchart
+	3. Pseudocode
+	
+##############CONTROL/CONDITIONAL/DECISION STATEMENTS##################
+	- Flow of program will depend on Control Expression
+	- Control Expression can be written using operators , always value will be either True/False.
+	- TYPES:
+		if 
+		if else
+		if elif elif ... else
+		if if if if .... else
+		nested if 
+		nested if else
+		nested if elif elif 
+		shorthand if (one statement inside the body)
+		shorthand if else 
+		
+		if (exp):
+			statement
+			statements
+		else:
+			statements
+			
+		if exp: statement
+		else: statement
+		
+		a = 10
+		b = 20
+		
+		if a>b:
+			print(a)
+		else:
+			print(b)
+			
+		print(a) if a>b else print(b)
+
+		
+

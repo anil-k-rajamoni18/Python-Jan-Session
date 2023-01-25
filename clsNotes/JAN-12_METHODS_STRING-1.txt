@@ -1,0 +1,66 @@
+TODAY
+==================
+
+SEQUENCE DATATYPE METHODS
+=========================
+	LIST 
+	===========
+		- append(obj)
+		- insert(ind,obj)
+		- extend([obj1,obj2...objn])
+		- pop(index=-1)
+		- remove(element)
+		- reverse() copy() clear()
+		- sort() sort(reverse=True)
+		- count() index()
+		
+	TUPLE
+	==================
+		count() index()
+		
+	SET
+	=====================
+		add() clear()
+		pop() remove() discard()
+		union() intersection() difference()
+		isdisjoint() issubset()
+		
+	DICTIONARY
+	=================
+		get()
+		keys() values() items()
+		pop("key") popitem()
+		update()
+		
+		
+STRINGS
+=================
+	- collectional sequence of characters.
+	- indexed and ordered
+	- immutable
+	- supports indexing
+			+ve  : 0 -> N-1
+			- ve  : -1 -> -N
+	- 3 ways of declaration:
+			- 'a'
+			- "hello"
+			- '''hello python
+				world'''
+				
+	##ESCAPE SEQUENCE 
+		\n --> new line
+		\t -- tab
+	## CONCAT 
+		str+str --> concat
+		str*int --> multiply
+		
+	###FORMATING 
+		print("My name is %s and age is %d"%(name,age))
+		
+		print("My name is {} and age is {}".format(name,age))
+		
+		print(f'My name is {name} age is {age}')
+		
+		
+	
+		

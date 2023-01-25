@@ -1,0 +1,19 @@
+###OPERATORS######
+=======================
+Operator is a symbol which applies on operands/values for doing operations
+
+ex: a=10
+	b=22
+	c = a+b
+	
+	print(10*20)
+	
+	
+	SUNDAY
+	MONDAY 
+	
+	TUESDAY 
+	
+	IF CONDITIONALS 
+	LOOPING
+	

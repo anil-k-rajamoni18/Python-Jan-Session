@@ -1,0 +1,67 @@
+Slicing Python Strings
+=================================
+- Extracting specific data.
+syntax:
+    [start:stop:step]
+- start : 0 (default)
+- stop : LEN-1
+- step : 1 
+
+negative:
+     - start : -1 (default)
+    - stop : -LEN-1
+    - step : - 1 
+
+
+note: STOP is exculsive not include
+
+
+STRING METHODS 
+============================
+	regular methods:
+	=======================
+		capitalize()
+		count()
+		endswith()
+		startswith()
+		expandtabs()
+		find()
+		rfind()
+		index()
+		rindex()
+		title()
+		replace()
+		upper()
+		lower()
+		
+		checking methods:
+	#############################
+		isalnum()
+		isalpha()
+		isdecimal()
+		isdigit()
+		isnumeric()
+		isidentifier()
+		islower()
+		isupper()
+		
+		covertion methods
+		########################
+
+		split() : str --> list
+			- map(fun,iterable)
+				fun : int float bool complex
+				iterable : list or tuple
+				
+			varName = list(map(int, input().split()))
+			
+		join() : list --> str
+		
+		
+		
+	##OBSERVATION
+		find()
+		rfind() ---> Returns highest index of a sub/charcter
+
+		index()
+		rindex()  --> Returns highest index of a sub/charcter

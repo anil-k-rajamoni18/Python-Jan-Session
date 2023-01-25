@@ -6,7 +6,7 @@
 - printing data to the console/screen/file by default 
 	syntax:
 	-----------------
--  print(value,sep=' ',end='\n',file=sys.stdout,flush=Flush)
+-  print(value,sep=' ',end='\n',file=sys.stdout,flush=False)
 
 	attributes/args
 		value
@@ -16,8 +16,8 @@
 		flush
 - we can use print method on any data type (int,float,str,list,tuple,set,dict) etc
 - Default values
-		sep = ' '
-		end = '\n'
+		sep = ' '   -> when printing more than one variables/value
+		end = '\n'  -> used inside loops
 		file = sys.stdout --> screen/console.
     we can override these values. 
 
@@ -27,7 +27,9 @@ OBSERVATION:
 - IN Python Everyone Functions returns something has a result (they will have return keyword)
 		if function is not returning anything interperter will return the None value.
 		1.when we are storing function calling in another variable
+			a = fun()
 		2. when we are calling the fun from another fun
+			print(fun())
 		
 - a = print("Hello")
   print(print("hello"))

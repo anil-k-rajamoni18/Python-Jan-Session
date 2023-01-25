@@ -49,7 +49,23 @@ len() --> number of elements , we can apply on list,tuple.str,set,dictionary
  SEQUENTIAL DATATYPES
  ============================
 	LIST
+	==================
+		- Collectional & ordered and Indexed Data types
+		- Mutable
+		- supports indexing 
+			+ve : 0 --> N-1
+			-ve : -1 --> -N
+		- supports silicing
+		- accessing:
+			lstvar_name[index] 
+			note: index should be valid , otherwise raise IndexOutOfBoundException.
+		- supports both hemo & hetro types.	
+		- syntax:
+			varName = [data1,data2,.....datan ]
+			
 	TUPLE
+	=============================
+		- 
 	SET
 	DICTIONARY
 	
