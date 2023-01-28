@@ -5,7 +5,7 @@
 	#TYPES
 		for loop
 			- when we know the number of iteration in advance.
-			- mainly use range(start,step,stop)
+			- mainly use range(start,stop,step)
 			
 			syntax:
 			for var in sequence:
@@ -26,7 +26,20 @@
 				
 		while loop
 		=================
-		
+			- preferred when we don't no of iteration in advance.
+			- while loop will run as long as condition is false.
+			- In while loop we have to intialise and inc/dec index variable because there is no range support.
+			syntax:
+				index = 0
+				while (condition):
+					body
+					index+=1
+				
+				i = 5
+				while i>0:
+					print("loops")
+					i = i-1
+					
 		
 		
 		looping statements
@@ -34,5 +47,17 @@
 		break
 		continue 
 		pass
+		
+		NESTED LOOPS 
+		============
+			for:
+				for
+			for:
+				while
+			
+			while:
+				while
+			while:
+				for
 		
 	

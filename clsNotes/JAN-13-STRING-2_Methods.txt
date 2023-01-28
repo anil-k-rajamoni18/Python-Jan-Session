@@ -59,7 +59,7 @@ STRING METHODS
 		
 		
 		
-	##OBSERVATION
+	##OBSERVATION############
 		find()
 		rfind() ---> Returns highest index of a sub/charcter
 

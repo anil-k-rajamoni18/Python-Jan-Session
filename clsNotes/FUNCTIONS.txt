@@ -1,0 +1,84 @@
+#### FUNCTIONS ####
+	- Types of statements 
+	- FUNCTIONS introductions
+		- Performing a specific task/job
+		- FUNCTION is group of instruction(seq,control,looping) placing it under one container,invoke/call only when it is required.
+		- FUNCTIONS increases code readability & modularity, code reusing.
+		- Syntax
+			
+			1. declaration 
+			--------------------------------
+			def functioName(para1,para2....paramn..):
+				body
+				return
+			
+			2. calling 
+			-----------------------------
+				functionName(arg1,arg2)
+			
+	TYPES:
+	###################################
+		prebuild functions
+			- comes with Python Standard Library
+			- developed by python-lang developers
+			
+		user-defined functions
+			- developed by python user for specific requirement.
+			
+		
+	DATA TO FUNCTIONS
+	################################
+		- we pass data to the functions in the form of args & parameters
+		- TYPES:
+			--> required positional args 
+					- we must pass values while calling function
+			--> default args 
+					- will have default value , in function declaration.
+			--> *args 
+					- receive data in the form of tuple
+			--> **kwargs 
+					- - receive data in the form of dictionary
+			
+		- note: always non-default args(required args) should declared/come first before default args.
+		
+	note:
+	#######################
+		-> we can use pass for writing empty function body 
+		-> return statement is used to send/return some data to outside of function body.
+		-> Functions in python always return something as a result when it's called.
+		-> By default it's None type when nothing being retured from function body.
+		-> In two cases generally, EXPECTS return values from function body.
+			1. storing function calling in a variable 
+				a = fun() 
+				here a will have return value from fun() 
+			2. calling function inside another functions.
+				print(fun())
+				
+				here print() will print return value of fun()
+				
+	variables scope.			
+	###################
+		- variables which are declared in function declaration are known as local variables.
+		- local variables will have scope and visibilty within function body.
+		- we can't access outside function body.
+		##TYPES###
+			local variable --> delcared inside fun body , scope only within fun
+			global variable. --> declare outside fun body, scope is public(can be accesible in entire program)
+			
+		:: note :: to modify global variables in function body,
+				we have to define with global keyword, otherwise with same name , it creates local copy.
+				
+				
+	##RETURNING 
+		- we use the return keyword to return the value from the function body.
+		- by default it will return None.
+		- A Function can return one value , or multiple value(tuple format)
+	
+	##NESTED FUNCTIONS
+		- we will always call inner functions withing outer function body.
+		
+				
+			
+				
+		
+			
