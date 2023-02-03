@@ -13,11 +13,11 @@ PRE-REQ
 	------------------
 		applications(notepad,msoffice)
 	-----------------
-		Kernal
+		Kernal(core part of OS)
 	--------------
 		OS 
 	-----------------
-	      H/W(ram,processor)
+	     H/W(ram,processor)
 		  
 	
 	CLI 
@@ -136,3 +136,10 @@ PRE-REQ
 
 
  
+	READ A 
+	READ B 
+	ADD A B 
+	OUT RESULT
+	
+	
+	HL(c,python,java) --compiler/interperter--> Machine Code(0,1)
