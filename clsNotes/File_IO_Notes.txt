@@ -1,0 +1,39 @@
+#######  LAST CLASS #########
+	- FILE Handling 
+	- basic data unit to store the data permanently on memory disk(ROM/SSD)
+	
+	methods:
+	=============
+	
+	1.
+	
+	fileObj = open(fileName,mode,encodig)
+	
+	2. 
+		with open(fileName,mode,encoding) as f:
+			body
+			
+	mode='r' (default) 'w' 'a' 'x' 't' 'b'
+	
+	write(strObj)
+	writelines([strObj,strObj]
+	read() --> read data in the format of string format
+	readlines() --> read data in list of strs 
+	seek()  -- change the file pointer position
+	tell() -- displays the current file position
+	close() --> close the file.
+	
+	
+	
+	##GIT ####
+	
+	1. open git discussion repo
+	2. right click and open git bash
+	3. add the file 
+	4. commands
+		git status 
+		git add . or git add -A or git add fileName
+		git commit -m "added file"
+		git push -u branchName
+	
+	
