@@ -1,0 +1,58 @@
+		LAST SESSION
+		================
+	-> os 
+		methods
+		==============
+		os.getcwd()
+		os.chdir()
+		os.listdir()
+		os.mkdir()
+		os.rmdir()
+		os.path.join()
+		os.rename()
+		os.remove()
+		
+	- sys
+		sys.winver
+		sys.version
+		sys.platform
+		sys.path
+		sys.executable
+		sys.getsizeof()
+	- array 
+		array.array(type,iterable)
+		append()
+		insert()
+		pop()
+		sort()
+		index()
+		reverse()
+	
+	- random
+		random.randint()
+		random.choice()
+		random.randrange()
+		random.shuffle()
+		random.sample()
+		random.random()
+	
+	-hashlib
+		encode()
+		hexdigest()
+		
+	- datetime
+		- submodule
+			datetime 
+			methods
+			=======
+			now()
+			
+	WHAT IS AN API?
+		methods in API
+		status codes
+		response types
+		Types of API's
+		
+		
+		
+		
