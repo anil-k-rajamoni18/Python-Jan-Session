@@ -46,6 +46,22 @@
 			methods
 			=======
 			now()
+			strftime()
+			
+	- requests 
+		pip install requests
+		- get()
+		- post()
+		-request() 
+		- attributes 
+			response.status_code
+			response.text
+			response.reason
+			response.ok
+			response.url
+			response.json()
+			
+		
 			
 	WHAT IS AN API?
 		methods in API
