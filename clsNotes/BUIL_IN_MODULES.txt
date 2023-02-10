@@ -61,6 +61,14 @@
 			response.url
 			response.json()
 			
+	- RegEx
+		- search()
+		- findall()
+		- compile()
+		- split()
+		- sub()
+		
+		
 		
 			
 	WHAT IS AN API?

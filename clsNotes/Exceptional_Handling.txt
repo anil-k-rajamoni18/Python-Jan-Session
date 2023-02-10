@@ -1,0 +1,21 @@
+FUNCTIONAL PROGRAMMING METHODS
+=======================================
+- we have 4 methods 
+1. map (function,iterable)
+	function --> can be prebuild/userdefined/lambda
+	iterable --> cab be sequence datatypes like list , tuple , str
+	
+	-> map() will generate a map object , typecaste/convert to list or tuple for displaying the o/p
+	-> map() internally will apply function on each and very element in the iterable.
+	
+2. filter(fun,iterable)
+	- will filter only True condition values.
+	
+3. lamda 
+	- one line function/anonmous
+
+
+
+
+EXCEPTIONAL HANDLING 
+==============================
