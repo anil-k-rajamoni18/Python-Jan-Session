@@ -1,0 +1,66 @@
+############ SUMMARY LEVEL_2&_3 ##########
+	=> Types of Statements
+		-> SEQ
+		-> COND
+		-> LOOPING
+		
+	=> CONDITIONAL STATEMENTS 
+		if 
+		if else
+		if elif elif .... else
+		multiple if's
+		nested if else 
+	==> LOOPS
+		- for loop
+			- print based for loop
+			- range based for loop
+		- while loop
+		
+		- statements 
+			- break
+			- continue
+			- pass
+	==> COMPREHENSION
+		- list 
+		- dictionary
+		
+	==> COMPLEXITY
+		- TIME 
+			Big-Oh notation
+	
+	==> FUNCTIONS 
+		
+		- introduction
+		- advantages
+		- prebuild functions 
+		- syntax
+		- TYPES OF ARGS 
+			- *args
+			- **kwargs
+			- required args
+			- default args
+		- SCOPE/Varibales
+			- local 
+			- global
+		- NESTED FUNCTIONS
+		- RECURSIVE FUNCTIONS
+	
+	==> PIP & VIRTUAL-ENV
+	==> MODULES 
+		- custom/userdefined modules
+		- prebuild modules
+		- 4 ways of importing 
+	==> PACKAGES
+		- custom packages 
+		- importing
+	==> BUILD-IN MODULES
+		- os sys random array hashlib re ctc
+	==> FUNCTIONAL PROGRAMMING METHODS 
+		-map()
+		-filter()
+		-reduce()
+		- lambda
+	==> EXCEPTIONAL HANDLING 
+		- try except finally else raise
+			
+	
