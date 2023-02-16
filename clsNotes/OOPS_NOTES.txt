@@ -1,0 +1,88 @@
+### CLASSS & OBJECT ###
+=========================
+
+class
+=============
+- object constructor or initialser or blueprint
+- properties
+	attributes --> variables
+	methods --> functions
+- syntax:
+	class A:
+		body 
+		#attributes
+		#methods 
+		
+		
+object 
+============
+- real time entity which is created from class
+-  objName = className()
+	ex: a = A()
+	- automatically internally it will call , __init__(self) for creating object
+	
+#### DIFFERENT WAYS ############
+1. class A:
+	pass
+
+	a = A();
+	a.name = "python"
+	a.duration = 2
+	
+	b = A();
+	b.time = 3
+	b.fee = 16762;
+	
+	
+2. class Student:
+	name="Ram"
+	branch = "IT"
+	roll_number = 96
+	
+   s = Student()
+   print(s.name)
+   print(s.branch)
+   
+   s2 = Student()
+   s2.name = "Ravi"
+   print(s2__dict__)
+   
+   
+3. class Student:
+		college = "XYZ" #class variable.
+		def __init__(self,a,b,c):
+			#instance variables
+			self.name = a
+			self.branch = b
+			self.roll_number = c
+			
+   obj1 = Student("Ram","IT",99)
+   print(obj1.__dict__)
+   
+   obj2 = Student("Kumar","ECE",78)
+   print(obj2.__dict__)
+   
+   
+## TYPE OF VARIABLES ###
+- object variables/instance variables
+	- one copy per one obj 
+- class variables 
+	- only one copy for all objects 
+	
+NOTE:
+	- we can access obj/instance variables  with objectName or className
+	- we can access class variables with only class Name.
+
+##TYPE METHODS##
+- instance methods
+	- they will have first args as "self" 
+- class methods 
+	- they will have first arg as "cls"
+- static methods 
+	- they will have decorator @staticmethod
+	
+
+
+   
+	
+	
