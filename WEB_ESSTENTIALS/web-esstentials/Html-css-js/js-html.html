@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+
+  <p id="demo">Hello</p>
+
+
+  h2>Use JavaScript to Change Text</h2>
+  <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+  <p id="demo2"></p>
+
+  <p id="demo3">JavaScript can change the style of an HTML element.</p>
+
+
+  <img id="myImage" src="https://www.w3schools.com/html/pic_bulboff.gif" width="100" height="180">
+
+
+  <script>
+
+    function myFunction() {
+      document.getElementById("demo3").style.fontSize = "25px";
+      document.getElementById("demo3").style.color = "red";
+      document.getElementById("demo3").style.backgroundColor = "yellow";
+    }
+    document.getElementById("demo2").innerHTML = "Python Programmming"
+
+
+    function light(sw) {
+      var pic;
+      if (sw == 0) {
+        pic = "https://www.w3schools.com/html/pic_bulboff.gif"
+      } else {
+        pic = "https://www.w3schools.com/html/pic_bulbon.gif"
+      }
+      document.getElementById('myImage').src = pic;
+    }
+
+  </script>
+
+  <button type="button" onclick="myFunction()">Click Me!</button>
+
+  <p>
+    <button type="button" onclick="light(1)">Light On</button>
+    <button type="button" onclick="light(0)">Light Off</button>
+  </p>
+</body>
+
+</html>

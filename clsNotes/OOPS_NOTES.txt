@@ -81,6 +81,45 @@ NOTE:
 - static methods 
 	- they will have decorator @staticmethod
 	
+	
+## ACCESS MODIFIERS 
+========================
+	public --> we can access anywhere in the program
+	private --> __ before variables or methods (accesibility within the class)
+	protected --> _ before variables or methods(accessibility will be outside class through child/sub class)
+		
+	variables ----> private 
+	methods ---> public 
+	
+	
+### INHERTIANCE ####
+	- process of inherting properties (attributes+methods) from one class to another class
+	- resuablity of code.
+	- TYPES 
+		- single level
+		- multi-level
+		- multiple 
+		- hybrid
+		- hierarchial 
+## ENCAPSULATION ####
+	- class is a best example for encapsulation 
+	- wrapping data(variables) and methods together
+	
+## POLYMORPHISM ###
+	- more than one form 
+	- do the same task in a different way 
+		len([19,22])
+		len("kumar")
+	
+	def add(a,b):
+		return a+b
+	
+	add(10,20) --> 30
+	add("hello" , "hi") --> 
+	
+
+	
+	
 
 
    
