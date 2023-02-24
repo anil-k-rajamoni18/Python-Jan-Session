@@ -1,0 +1,184 @@
+
+WHATS JSON
+===========
+[{},{},{}]
+
+- Connect to the mongo db server
+	mongod
+	
+- connect to the client
+	mongosh
+	
+	
+- default port localhost://27017
+
+
+
+# connect to mongosh
+
+mongosh "mongodb+srv://cluster0.mitqgvp.mongodb.net/userProfiles" --apiVersion 1 --username Alien --password AlienDB
+
+db.users.createIndex( { username: 1, passwd: 1 }, {unique:true} )
+
+
+
+show dbs
+show collections
+db.collections. all methods
+
+db.dropDatabase()
+
+#methods
+==================
+insertOne()
+insertMany()
+deleteMany()
+deleteOne()
+find()
+findOne()
+
+#Python Methonds
+=============================
+
+insert_one()
+insert_many()
+find()
+find_one()
+update_one()
+update_many()
+replace_one()
+find_one_and_update()
+find_one_and_delete()
+find_one_and_replace()
+count_documents()
+
+
+
+######################################
+
+
+[{_id : 2,name:"AngularJs",fee:13000,tutorName:"Rashmi"},
+ {_id : 3,name:"Java",fee:10000,tutorName:"arvan"}
+ {_id : 4,name:"ReactJs",fee:8000,tutorName:"Rajamoni"},
+ {_id : 5,name:"Flask",fee:6000,tutorName:"AKR"},
+ {_id : 6,name:"Dart",fee:15000,tutorName:"Lavanya"},
+ {_id : 7,name:"Ruby",fee:18000,tutorName:"Rafal"}
+ {_id : 8,name:"Javascript",fee:5000,tutorName:"Rajani"}
+]
+
+
+db.course.insertMany([{_id : 2,name:"AngularJs",fee:13000,tutorName:"Rashmi"},
+ {_id : 3,name:"Java",fee:10000,tutorName:"arvan"},
+ {_id : 4,name:"ReactJs",fee:8000,tutorName:"Rajamoni"},
+ {_id : 5,name:"Flask",fee:6000,tutorName:"AKR"},
+ {_id : 6,name:"Dart",fee:15000,tutorName:"Lavanya"},
+ {_id : 7,name:"Ruby",fee:18000,tutorName:"Rafal"},
+ {_id : 8,name:"Javascript",fee:5000,tutorName:"Rajani"}
+])
+
+
+
+db.course.insertMany([
+ {_id : 10,name:"C",fee:18000,tutorName:"Avinash",skills:["C","C++"]},
+ {_id : 11,name:"web",fee:5000,tutorName:"Ram",skills:["HTML","CSS","WEB"],address:{street1: "502 PO" , street2:"TX",ZIP: 029289}}
+])
+
+db.course.insertMany([{_id : 31,name:"Dart",fee:16000,tutorName:"Naina"},{_id : 32,name:"Dart",fee:15000,tutorName:"Zuriya"}])
+
+db.collection.insertMany([{},{}])
+
+db.collection.find()  
+
+
+db.course.updateOne({tutorName: 'AKR'},
+    {$set: {tutorName: 'Kumar Rajamoni',
+     name: 'Solidty',
+    }}, {upsert: true})
+    
+    
+db.course.update({tutorName: 'Kumar Rajamoni'},
+    {$inc:{
+    fee: 20000
+    }})
+    
+    
+    
+db.course.updateMany({name: 'Dart'},
+    {$set: {fee:1000}}, {upsert: true})
+    
+    
+db.course.remove({name: 'Dart'})
+
+
+db.course.deletOne({name: 'Dart'})
+
+
+
+mongosh --> local db/dbserver
+mongosh "mongodb+srv://cluster0.mitqgvp.mongodb.net/COURSES" --apiVersion 1 --username Alien --password AlienDB
+
+###################################
+
+
+MondoDB USER
+==================
+Alien
+AlienDb
+
+
+
+
+
+IMP:
+=============================
+
+https://www.mongodb.com/
+
+
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+
+
+mongosh "mongodb+srv://cluster0.mitqgvp.mongodb.net/courses" --apiVersion 1 --username Alien --password AlienDB
+
+
+client = pymongo.MongoClient("mongodb+srv://Alien:AlienDB@cluster0.mitqgvp.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+
+
+
+
+
+
+
+#using python application
+
+DB NAME : userProfiles 
+collections : profile
+
+format for document:
+
+name email passwd (encrpy) hashlib
+
+
+
+
+{"name": "Kumar","email":"kumar@gmail.com","passwd":"Kumar123"},
+{"name": "Rajamoni","email":"Rajamoni@gmail.com","passwd":"Rajamoni123"},
+{"name": "Lavanya","email":"lavanya@yahoo.com","passwd":"lavaya@123"},
+{"name": "rashmi","email":"rashmi@yahoo.com","passwd":"rashmi#123"}
+
+
+https://geeksforgeeks.com/
+
+geeksforgeeks : domain (IP ADDRESS)
+extension : . com
+http:80 (less secure )
+https:443 (secure) 
+exchange the data 
+    client ----------- server.
+    
+    
+https://www.nasa.gov/topics/earth/index.html
+
+ENDPOINT : topics/earth/index.html
+
