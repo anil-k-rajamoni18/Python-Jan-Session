@@ -1,0 +1,14 @@
+API 
+===========
+-What is API?
+-Types 
+- Behaviour 
+- Languages (java,python,nodejs)
+- API communicate with languages like JSON , XML , GRAPHQL 
+- TYPES METHODS 
+	- GET 
+	- POST 
+	- PUT 
+	- DELETE 
+	
+- API testing tools : Postman.
