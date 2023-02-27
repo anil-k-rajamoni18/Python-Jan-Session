@@ -30,8 +30,17 @@ db.dropDatabase()
 
 #methods
 ==================
-insertOne()
-insertMany()
+insertOne({})
+insertMany([{},{},{}])
+
+db.collection.find()
+db.collection.find().limit(2)
+db.collection.find().sort({"fieldName":1}) --> ascending order
+
+db.collection.find().sort({"fieldName":-1}) --> decending order
+
+
+
 deleteMany()
 deleteOne()
 find()
@@ -246,4 +255,64 @@ db.foodItems.insertMany([
 	    {"foodName":"Chips and Guacamole", "calories":770, "sideItem":true},
 	    {"foodName":"Chips and Queso", "calories":770, "sideItem":true}
             ])
+
+
+
+### CLS COMMAND ###
+
+db.foodItems.find().sort({foodName:1,calories:-1})
+db.foodItems.find().sort({foodName:-1,calories:-1}).limit(4)
+
+db.foodItems.find().sort({foodName:-1,calories:-1}).skip(1).limit(4)
+
+db.foodItems.find({"foodName":"Steak Quesadilla"})
+db.foodItems.find({"foodType":"Taco"})
+db.foodItems.find({"calories":600})
+db.foodItems.find({"foodType":"Taco"}).sort({"foodName":1}) 
+
+db.foodItems.find({"calories":600},{"foodName":1,_id:0})
+
+db.foodItems.find({"foodType": {$eq:"Taco"}}) 
+db.foodItems.find({"foodType": {$ne:"Taco"}})
+db.foodItems.find({"foodType": {$in:["Taco","Salad"]}}) 
+
+db.foodItems.find({"calories": {$nin:[700,200]}})
+db.foodItems.find({"calories": {$lt:700}})
+
+db.foodItems.find({$and:[{"foodType":{$eq:"Taco"}},{"calories":{$lt:700}}]})
+
+db.foodItems.find({$or:[{"foodType":{$eq:"Taco"}},{"calories":{$lt:700}}]})
+
+
+db.foodItems.find({"foodType" :{$in:["Taco", "Burrito Bowl", "Burrito"]}})
+
+db.foodItems.find({$text: {$search: "Taco"}}, {score: {$meta: "textScore"}}).sort({score: {$meta: "textScore"}})
+
+db.foodItems.find({foodName: /^B/}) 
+
+db.foodItems.updateOne({"protein": "chicken"}, {$set:{"calories": 550})
+
+db.foodItems.updateMany({"protein": "chicken"}, {$set:{"calories": 666}})
+
+
+
+CRUD 
+CREATE READ UPDATE DELETE
+===================================
+insertOne()
+insertMany()
+
+updateOne()
+updateMany()
+
+deleteOne()
+deleteMany()
+
+
+mongosh "mongodb+srv://cluster0.1tynbir.mongodb.net/myFirstDatabase" --apiVersion 1 --username tejakhandavilli111 --password Shannu@1
+
+mongodb+srv://<username>:<password>@cluster0.mitqgvp.mongodb.net/?retryWrites=true&w=majority
+
+mongodb+srv://tejakhandavilli111:Shannu@123@cluster0.mitqgvp.mongodb.net/?retryWrites=true&w=majority
+
 
