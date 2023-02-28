@@ -288,7 +288,7 @@ db.foodItems.find({"foodType" :{$in:["Taco", "Burrito Bowl", "Burrito"]}})
 
 db.foodItems.find({$text: {$search: "Taco"}}, {score: {$meta: "textScore"}}).sort({score: {$meta: "textScore"}})
 
-db.foodItems.find({foodName: /^B/}) 
+	db.foodItems.find({foodName: /^B/}) 
 
 db.foodItems.updateOne({"protein": "chicken"}, {$set:{"calories": 550})
 
@@ -316,3 +316,5 @@ mongodb+srv://<username>:<password>@cluster0.mitqgvp.mongodb.net/?retryWrites=tr
 mongodb+srv://tejakhandavilli111:Shannu@123@cluster0.mitqgvp.mongodb.net/?retryWrites=true&w=majority
 
 
+
+db.customers.find({name: /^V/})
