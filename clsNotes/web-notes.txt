@@ -1,0 +1,106 @@
+my_project/
+    app.py
+    config.py
+    requirements.txt
+    static/
+    templates/
+    views/
+	
+	
+	
+	
+FRONT-END UI
+----------------
+HTML 
+CSS
+JS 
+ReactJs NextJs
+
+BACKEND 
+------------
+- java+spring boot
+- python+flask 
+- python+django
+
+DB
+----------
+MYSQL -- SQL DB
+MONGODB -- NOSQL 
+
+
+CLOUD &SERVER
+-----------
+AWS 
+GCP 
+AZURE 
+
+CODE REPOSITORY
+------------------
+GITHUB
+GITLAB
+GITBUCKET
+
+DEPLOYMENT 
+---------------------
+JENKINS
+DOCKER 
+K8's
+
+
+
+ADDRESS : https://www.wired.com
+
+PROTOCOL : http
+domain : com 
+extension : www.
+
+
+https://144.48.73.80/
+
+
+https://www.wired.com -- BROWSER ADDRESS ----> DNS ---> IP ADDRESS ----> GOOGLE SERVERS.
+
+
+https://media.wired.com/clips/63fe9376d35154c5a1728062/master/pass/ideas_algorithm_optimize_behavior.mp4
+
+ localhost: http://127.0.0.1:5000
+ 
+ 
+ 
+ WEB APPLICATIONS
+ --------------------
+ TWO FRAMEWORKS 
+ ---------------------
+ flask
+ django
+ 
+ 
+ 1. create a floder (based on project-name)
+ 2. create a virtual-env 
+ 3. Activa venv and Install the modules 
+ 4. STRUCTURE 
+	project-floder/
+		- application.py
+		- static 
+		- templates
+		- views
+		
+http://127.0.0.1:5000
+
+5000: port number -- flask
+127.0.0.1 : localhost 
+
+{{variable}}
+
+{% %}
+
+
+FORM
+-------------
+NUM1
+NUM2
+SYMOBOL
+CALCULATE
+
+ 
+ 

@@ -37,7 +37,7 @@ if __name__ == '__main__':
         else:
             print("INVALID USERNAME...")
        else:
-          print("NO MATCHING RECORD OR USERNAME....")
+          print("NO MATCHING RECORD WITH USERNAME....")
     
     elif ch == -1:
       break

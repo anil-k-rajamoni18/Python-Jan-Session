@@ -29,7 +29,7 @@ def CreateConnection(db_name,coll_name,DB_URL):
                 try:
                     if coll_name in my_db.list_collection_names():
                         my_coll = my_db[coll_name]
-                        print(f"Connection CREATED for {db_name} &  collection{coll_name} ....")
+                        print(f"Connection CREATED for {db_name} &  collection {coll_name} ....")
                         return my_coll
                     else:
                         raise Exception("Collection not found...")
@@ -51,3 +51,16 @@ def insertBlukData(coll,data):
 
 def findByUserName(coll,uname):
   return coll.find_one({"username":uname})
+
+
+def insertOne():
+    pass
+
+def findOneRecord():
+    pass
+
+def updateRecord():
+    pass
+
+def removeRecord():
+    pass
