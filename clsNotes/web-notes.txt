@@ -104,3 +104,17 @@ CALCULATE
 
  
  
+ - HEROKU 
+- RENDER
+- AWS 
+
+
+STEPS TO DEPLOYMENTS 
+========================
+1. Create requirements.txt using
+	pip freeze > requirements.txt
+	
+	note: should be in actived env while creating file.
+	
+2. PUSH THE CODE to the NEW GIT REPO
+3. LOGIN TO RENDER DASHBOARD 
