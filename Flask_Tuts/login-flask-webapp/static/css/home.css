@@ -1,0 +1,25 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+}
+
+.welcome{
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  padding: 250px 0;
+  color: rgb(225, 247, 60);
+}
+
+.login-button{
+  position:absolute;
+  top:0;
+  right:0;
+  padding: 25px ;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-button a{
+  color:rgba(195, 0, 0, 0.868)
+}
