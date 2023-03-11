@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Currency Converter</h2>
+                        
+
+ <div class='div2'>
+                <form action="{{ url_for('convert') }}" method="POST">
+                    <!-- Batting Team Dropdown -->
+                    <select id="select1" class="form-input align-center" name="cnt1">
+                        <option value="none">---  FROM (COUNTRY) ---</option>
+                        <option value="USD">US Dollar</option>
+                        <option value="EURO">Euro</option>
+                        <option value="GBP">British Pound</option>
+                        <option value="INR">Indian INR</option>
+                        <option value="AUD">Australian Dollar</option>
+                          </select>
+                        <!-- Country2 -->
+                       <select id="select1" class="form-input align-center" name="cnt2">
+                        <option value="none">---  TO (COUNTRY) ---</option>
+                        <option value="USD">US Dollar</option>
+                        <option value="EURO">Euro</option>
+                        <option value="GBP">British Pound</option>
+                        <option value="INR">Indian INR</option>
+                        <option value="AUD">Australian Dollar</option>
+                      </select>
+                       
+                    <input class="form-input" type="text" name="sym" placeholder="Enter the Currency of Country 1"><br>
+                 
+
+      <input type="submit" class="myButton" value="Convert">
+          </form>
+            </div>
+
+
+    
+
+</form>
+
+
+</body>
+</html>

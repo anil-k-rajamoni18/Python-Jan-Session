@@ -90,9 +90,16 @@ http://127.0.0.1:5000
 5000: port number -- flask
 127.0.0.1 : localhost 
 
-{{variable}}
 
-{% %}
+variable = [10,20,30]
+
+<p> {{variable}}} </p>
+
+
+{% for data in variable %}
+	<p> data </p>
+	
+{% endfor %}
 
 
 FORM
@@ -118,3 +125,35 @@ STEPS TO DEPLOYMENTS
 	
 2. PUSH THE CODE to the NEW GIT REPO
 3. LOGIN TO RENDER DASHBOARD 
+
+
+1. python -m venv name
+2. activate
+3. pip install -r requirements.txt
+
+
+
+DEV_OPS
+-----------------
+Git & GitHub 
+Jenkins
+Docker 
+K8 , Container.
+
+
+
+
+
+air-pollution-detector-app ---> GITHUB ---> Jenkins --> Docker Image ---> AWS (server) Containers (docker images)
+	
+pushed commit --> GITHUB ---> Jenkins
+
+
+
+Password Checker
+meme generator 
+Restaurant sentiment 
+
+Major Project:
+ Mental illiness Treatment using ML classifier.
+	
