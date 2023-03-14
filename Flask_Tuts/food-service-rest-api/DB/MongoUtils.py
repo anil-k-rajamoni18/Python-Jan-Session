@@ -40,14 +40,22 @@ def findByUserName(coll,uname):
   return coll.find_one({"username":uname})
 
 
-def findRecord(coll):
-    return coll.find_one()
+def findAllRecords(coll):
+    apiResponse = list(coll.find({},{"_id":0}))
+    return {"count": len(apiResponse) ,"foodItems" : apiResponse}
 
-def insertOne():
-    pass
+def insertOne(coll,data):
+    insertResponse = coll.insert_one(data)
+    print(insertResponse)
+    return {"acknowledged" : insertResponse.acknowledged , "inserted_id" : str(insertResponse.inserted_id)}
+
+
+def insertMany(coll,data):
+    apiResponse = coll.insert_many(data)
+    return {"acknowledged" : apiResponse.acknowledged , "inserted_count" : len(data)}
 
 def findOneRecord(coll):
-    return coll.find_one()
+    return {"foodItem" : coll.find_one({},{"_id":0})}
 
 def updateRecord():
     pass

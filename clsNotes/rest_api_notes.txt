@@ -1,0 +1,26 @@
+
+	LAST SESSION
+	----------------
+		- Strong password generator - Desktop application(tkinter)
+		- password checker - flask app (using api) 
+		- meme generator application.
+		
+	TODAY 
+	---------------
+		- REST API (food-service api)
+			- GET   - find_one() find()
+			- POST  - insert_one() insert_many()
+			- PUT  - update_one()
+			- DELETE - delete_one()
+			
+			
+		-- FLASK ---> MONGODB..
+		
+		
+		{'food-name': 'pizza', 'price': 70, 'rating': 3.5, 'feedback': 'should improve taste.'}
+		
+		[{'food-name': 'pizza', 'price': 70, 'rating': 3.5, 'feedback': 'should improve taste.'}]
+
+	
+	IMP URLS:
+		https://github.com/terrenjpeterson/caloriecounter/blob/master/src/data/foods.json

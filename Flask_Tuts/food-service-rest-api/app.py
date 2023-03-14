@@ -15,25 +15,30 @@ def createDBConnection():
 def index():
   return "Greetings from food rest mirco service is up and running..."
 
-@app.route("/api/fooditems",methods=["GET"])
+@app.route("/api/food",methods=["GET"]) #to get one food item
+def getFoodItem():
+  apiResponseData = findOneRecord(collObj)
+  print(apiResponseData)
+  return apiResponseData
+
+
+@app.route("/api/fooditems",methods=["GET"]) #to get list of all food items.
 def getFoodItems():
-  ResponseData = findOneRecord(collObj)
-  responseResult = []
-  if ResponseData:
-    for data in ResponseData:
-      responseResult.append({data:ResponseData[data]})
+  apiResponseData = findAllRecords(collObj)
+  return apiResponseData
 
-  responseResult = {"data": responseResult}
-  print(responseResult)
-  return responseResult
-
-@app.route("/api/food/",methods=["POST"])
+@app.route("/api/food",methods=["POST"])
 def saveFoodItem():
   if request.method == "POST":
-    print(request.get_json())
+    data = request.get_json()
+    return insertOne(collObj,data)
 
 
-
+@app.route("/api/fooditems",methods=["POST"])
+def saveFoodItems():
+  if request.method == "POST":
+    data = request.get_json()
+    return insertMany(collObj,data)
 
 
 
