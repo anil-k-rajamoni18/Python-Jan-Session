@@ -150,10 +150,17 @@ pushed commit --> GITHUB ---> Jenkins
 
 
 
-Password Checker
-meme generator 
-Restaurant sentiment 
 
-Major Project:
- Mental illiness Treatment using ML classifier.
+TYPES OF APPLICATIONS
+--------------------------
+Desktop Applications
+	- package : Tkinter
 	
+Standalone Applications
+
+Web Applications 
+	- flask django
+	
+Mobile Applications
+	- react native
+	- kotlin
